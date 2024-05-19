@@ -1,0 +1,62 @@
+.texto-p {
+    color: cornflowerblue;
+
+    font-family: caveat;
+    /* font-family define la lista de fuente a usar  */
+    font-size: 42px;
+    /* define el tamaño de letra */
+    font-weight: 400;
+    /* La propiedad font-weight en CSS se utiliza para especificar el grosor o la "pesadez" de la fuente de texto,
+    Puedes utilizar valores numéricos para establecer el grosor de la fuente. Los valores van desde 100 (más delgado) hasta 900 (más grueso), con intervalos de 100.
+    Palabras clave: CSS también ofrece palabras clave predefinidas para especificar el grosor de la fuente. Algunas de las más comunes son:
+
+normal: Define el grosor de la fuente como normal.
+bold: Define el grosor de la fuente como negrita.
+bolder: Aumenta el grosor de la fuente más allá del valor bold.
+lighter: Reduce el grosor de la fuente por debajo del valor normal. */
+    font-style: normal;
+    /* font-style en CSS se utiliza para especificar el estilo de la fuente, como si está en cursiva, en negrita, en oblicuo */
+    text-align: justify;
+    /* text-align nos define si queremos el texto en ezquierda, derecha o centro */
+    line-height: 1.4;
+    /* line-height: define el espacioi entre lineas  */
+    letter-spacing: 2px;
+    /* letter-spacing: define el espacio de letras */
+
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+span {
+    text-decoration: line-through;
+    color: blueviolet;
+}
+.ancho-alto {
+    background-color: aqua;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    
+}
+.formulario {
+    text-align: left;
+    font-family: caveat;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    border-bottom: 20px;
+
+}
+
+input {
+width: 10%;
+}
+/* practica de margin, width, height */
+.box{
+    background: aquamarine;
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+}

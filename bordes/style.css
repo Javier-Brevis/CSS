@@ -1,0 +1,77 @@
+div {
+    background: aqua;
+    width: 300px;
+    /* La propiedad width define explícitamente el ancho de un elemento, lo que te 
+    permite controlar cómo se distribuye el espacio en tu diseño. */
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+
+    border-style: solid dotted dashed ;
+    /* 
+La propiedad border-style en CSS se utiliza para definir el estilo de los bordes de un elemento.
+ Esta propiedad puede aplicar un estilo a los cuatro bordes de un elemento (superior, derecho, inferior e izquierdo) */
+    border-width: 5px;
+    /* Define el ancho del borde. */
+    border-color:black;
+    border-radius: 20px;
+
+
+}
+
+.box {
+    border: 5px dotted black;
+    /* 
+La propiedad border en CSS es una propiedad abreviada que permite establecer 
+en una sola línea el ancho (border-width), estilo (border-style) y color (border-color) de los bordes de un elemento. Esta propiedad es
+muy útil para definir bordes de manera concisa y simplificar el código CSS. */
+    background: orangered;
+    border-radius: 25px;
+    /* La propiedad border-radius en CSS se utiliza para redondear las esquinas de los bordes de un elemento. Puedes aplicarla para crear efectos de bordes redondeados en elementos
+     rectangulares como <div>, imágenes, botones, etc. */
+    padding: 10px;
+}
+
+.box2 {
+    border-top-left-radius: 80px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 80px;
+    background:blueviolet;
+    border: 4px dashed yellowgreen;
+}
+body{
+    padding: 20px;
+}
+
+/* ****Valores de border-style****
+Los valores más comunes para border-style son:
+
+none: Sin borde.
+solid: Un borde sólido.
+dotted: Un borde con puntos.
+dashed: Un borde con guiones.
+double: Un borde doble.
+groove: Un borde con un efecto de ranura 3D que parece esculpido en la superficie.
+ridge: Un borde con un efecto de cresta 3D que parece sobresalir de la superficie.
+inset: Un borde con un efecto de inserción 3D que hace que el contenido parezca hundido.
+outset: Un borde con un efecto de relieve 3D que hace que el contenido parezca elevado.
+hidden: Oculta el borde, similar a none, pero se utiliza en el contexto de tablas para tener un efecto diferente. */
+
+
+/*  ****Valores de border-radius****
+los valores mas comunes son:
+
+Dos Valores: el primer valopr aplica alas esquinas superior izquierda e inferior derecha, y 
+el segundo valor ,aplica a las esquinas superior derecha e inferior izquierda
+
+valores especifico para cada esquina: puedes usar propiedades individuales para cada esquina.
+
+.elemento {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+}
+
+*/

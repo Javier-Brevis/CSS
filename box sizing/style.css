@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+div {
+    background: violet;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.box-new1{
+    padding: 25px;
+    border:5px solid black
+}
+
+.box-new2{
+    box-sizing: border-box;
+    padding: 25px;
+    border:5px solid black
+}
+
+
+/* Box-sizing
+ La propiedad box-sizing en CSS se utiliza para definir cómo se calculan las dimensiones totales de un elemento, incluyendo su ancho y alto. Esta propiedad puede ser muy útil para controlar el comportamiento del tamaño de los elementos, especialmente cuando se trabaja con padding y bordes.
+ */

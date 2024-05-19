@@ -1,0 +1,59 @@
+body {
+    font-family: arial, sans-serif, lucida;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+/* estilo de tarjeta */
+.card {
+    text-align: center;
+    background-color: ;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    width: 300px;
+}
+/* estilo de imagen */
+.photo {
+    height: 200px;
+    border: 4px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/* estilo de titulo */
+.titulo{
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+/* estilo de texto */
+.texto{
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+/* estilo de boton */
+.card-button {
+    background-color: #007bFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor:pointer ;
+
+}
+
+
+
+
+
+/*  Propiedad Display
+La propiedad display en CSS es fundamental para controlar cómo se
+presentan los elementos HTML en la página web. Determina si un 
+elemento es tratado como un bloque, una línea, un contenedor flex, una cuadrícula, entre otros,
+ afectando su comportamiento en el flujo del documento y su interacción con otros elemento
+*/
